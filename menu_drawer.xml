@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/dashboard"
+            android:title="@string/popular_movies"
+            android:icon="@drawable/movie_icon"/>
+        <item
+            android:id="@+id/favourites"
+            android:title="@string/favourites"
+            android:icon="@drawable/fav_icon"
+            />
+        <item
+            android:id="@+id/about"
+            android:title="@string/about_app"
+            android:icon="@drawable/about_icon"/>
+    </group>
+
+</menu>
